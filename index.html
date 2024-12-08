@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Averia+Gruesa+Libre&display=swap" rel="stylesheet">
+    <title>A Jornada de Chapeuzinho Vermelho</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>Chapeuzinho Vermelho recebeu uma missão importante de sua mãe: levar cestas com alimentos para sua avó, que morava do outro lado da floresta. Antes de sair, ela recebeu uma advertência: "Não converse com estranhos!"</p>
+            <button class="btn-proximo" data-proximo="1">Seguir pela estrada principal</button>
+            <button class="btn-proximo" data-proximo="2">Aventurar-se pela trilha mais curta</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você decide seguir pela estrada principal. Enquanto caminha, encontra um simpático lenhador que pergunta para onde você vai.</p>
+            <button class="btn-proximo" data-proximo="3">Responder que vai visitar a avó</button>
+            <button class="btn-proximo" data-proximo="4">Ignorar o lenhador e continuar andando</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Você decide seguir pela trilha mais curta. A floresta fica mais densa e misteriosa, mas você está determinada a chegar mais rápido.</p>
+            <button class="btn-proximo" data-proximo="5">Continuar pela trilha</button>
+            <button class="btn-proximo" data-proximo="6">Voltar para a estrada principal</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>O lenhador sorri e diz que é perigoso ir pela floresta sozinha. Ele sugere que você siga pelo caminho mais seguro e avisa sobre o lobo que anda por ali.</p>
+            <button class="btn-proximo" data-proximo="7">Agradecer e seguir o conselho</button>
+            <button class="btn-proximo" data-proximo="8">Ignorar o aviso e continuar no seu caminho</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-ignorando-lenhador.png" alt="Chapeuzinho Vermelho ignorando o lenhador">
+            <p>Você ignora o lenhador e continua pelo caminho. De repente, você encontra o lobo. Ele começa uma conversa e no final acaba sendo devorada por ele.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>A trilha se estreita e você começa a se sentir mais desconfortável. A floresta parece ainda mais sombria à medida que você avança, mas você decide continuar firme.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir em frente, apesar do medo</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Você decide voltar para a estrada principal. No caminho, você encontra novamente o lenhador, que sorri ao ver sua decisão e pergunta se você está bem.</p>
+            <button class="btn-proximo" data-proximo="3">Responder que está tudo bem</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Seguindo pelo caminho mais seguro, você chega à casa da avó e entrega os alimentos. Ela fica muito feliz por sua visita e segurança.</p>
+            <button class="btn-proximo" data-proximo="9">Visitar a avó e passar o dia com ela</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Você ignora o conselho do lenhador e continua em frente. Porém, o lobo aparece à frente e engana você, indo até a casa da sua avó antes de você!</p>
+            <button class="btn-proximo" data-proximo="10">Chegar à casa da avó e descobrir o que aconteceu</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <img src="img/cenario-passo9-avo-feliz.png" alt="Chapeuzinho Vermelho e sua avó felizes">
+            <p>Chapeuzinho Vermelho passa um ótimo dia com sua avó, agradecendo pela visita e pela segurança no caminho.</p>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Quando você chega à casa da sua avó, encontra o lobo disfarçado dela. Ele estava tentando enganar você, mas o lenhador aparece a tempo de salvar o dia!</p>
+            <button class="btn-proximo" data-proximo="11">Ajudar o lenhador a capturar o lobo</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo11-salvando-avo.png" alt="Salvando a avó do lobo">
+            <p>Com a ajuda do lenhador, o lobo é capturado e levado embora. A avó e Chapeuzinho Vermelho agradecem ao lenhador pela coragem.</p>
+        </div>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
+</html>

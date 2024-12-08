@@ -1,0 +1,33 @@
+body {
+    background-color: #570814;
+    color: beige;
+    font-family: "Averia Gruesa Libre", system-ui;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+
+button {
+    background-color: #ac0937a2;
+    color: beige;
+    font-family: "Averia Gruesa Libre", system-ui;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display:block;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+}
+
+img {
+    max-width: 90%;
+}
